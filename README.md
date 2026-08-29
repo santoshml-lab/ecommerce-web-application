@@ -6,7 +6,7 @@ A full-stack e-commerce web application built to provide a simple and responsive
 
 - 🌐 Frontend (Netlify): https://fabulous-crepe-57a40f.netlify.app/
 - ⚙️ Backend API (Render): https://ecommerce-web-application-1g0v.onrender.com/
-- 💻 GitHub Repository: `
+- 💻 GitHub Repository: `https://github.com/santoshml-lab/ecommerce-web-application
 
 ## ✨ Features
 
