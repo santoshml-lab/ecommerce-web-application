@@ -966,5 +966,32 @@ window.closeModal = function(id) {
 
 // =====================================================
 // CLOSE MODAL WHEN CLICKING OUTSIDE
-//
+// =====================================================
+
+window.addEventListener("click", (event) => {
+
+    if (event.target.classList.contains("modal")) {
+        event.target.style.display = "none";
+    }
+
+});
+
+
+// =====================================================
+// HTML ESCAPE HELPER
+// =====================================================
+
+function escapeHTML(value) {
+
+    return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+
+}
+
+
+
 
