@@ -967,3 +967,4 @@ window.closeModal = function(id) {
 // =====================================================
 // CLOSE MODAL WHEN CLICKING OUTSIDE
 //
+
