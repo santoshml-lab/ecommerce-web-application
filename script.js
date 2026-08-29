@@ -2,6 +2,7 @@
 // CONFIGURATION
 // =====================================================
 
+
 const API_BASE_URL =
     "https://ecommerce-web-application-1g0v.onrender.com";
 
